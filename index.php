@@ -2,6 +2,11 @@
 
 require 'Task.php';
 
+require 'functions.php';
+
+
+$pdo = ConnectToDb();
+
 
 $statement = $pdo->prepare('select * from todo');
 
