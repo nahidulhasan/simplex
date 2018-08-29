@@ -12,3 +12,14 @@ function connectToDb(){
 	}
 	
 }
+
+
+function fetchAllTask($pdo)
+{
+	$statement = $pdo->prepare('select * from todo');
+
+    $statement->execute();
+
+    return $statement->fetchAll(PDO::FETCH_CLASS, 'Task');
+
+}
