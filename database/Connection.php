@@ -4,12 +4,17 @@
 class Connection 
 {	
 	
-	public static function make()
+	public static function make($config)
 	{
 
 	   try {
 
-		  return new PDO('mysql:host=database;port=3306;dbname=simplex', 'root', 'common404');
+		  return new PDO(
+
+		      $config['connection'].';port='.$config['port'].';dbname='.$config['name'],
+                   $config['username'],
+                   $config['password']
+          );
 
 		} catch (PDOException $e) {
 
