@@ -1,6 +1,6 @@
 <?php
 
-function connectToDb(){
+/*function connectToDb(){
 
 	try {
 
@@ -11,7 +11,7 @@ function connectToDb(){
 		die($e->getMessage());
 	}
 	
-}
+}*/
 
 
 function fetchAllTask($pdo)
