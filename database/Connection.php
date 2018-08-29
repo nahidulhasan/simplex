@@ -13,7 +13,8 @@ class Connection
 
 		      $config['connection'].';port='.$config['port'].';dbname='.$config['name'],
                    $config['username'],
-                   $config['password']
+                   $config['password'],
+                   $config['options']
           );
 
 		} catch (PDOException $e) {

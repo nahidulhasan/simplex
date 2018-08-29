@@ -10,7 +10,9 @@ return  [
         'password' => 'common404',
         'connection' => 'mysql:host=database',
         'port' => 3306,
-        'option' => []
+        'options' => [
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
+        ]
     ]
 
 
