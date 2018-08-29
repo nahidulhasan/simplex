@@ -4,12 +4,15 @@ require 'Task.php';
 
 require 'database/Connection.php';
 
-require 'functions.php';
+require 'database/QueryBuilder.php';
 
 
 $pdo = Connection::make();
 
-$tasks = fetchAllTask($pdo);
+
+$query = new QueryBuilder($pdo);
+
+$tasks = $query->SelectAll('todo');
 
 
 require 'index.view.php';
