@@ -6,6 +6,15 @@ class Router {
     protected $routes = [];
 
 
+    public static function load($file)
+    {
+        $router = new static();
+
+        require  $file;
+
+        return $router;
+
+    }
     public  function register( array $routes)
     {
         $this->routes = $routes;

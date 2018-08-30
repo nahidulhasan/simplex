@@ -8,9 +8,9 @@
 
    <h3>Menu</h3>
 
-   <li> <a href="controllers/about.php">about us</a> </li>
-   <li> <a href="controllers/contact.php">contact</a> </li>
-   <li> <a href="controllers/about-culture.php">about culture</a> </li>
+   <li> <a href="/about">about us</a> </li>
+   <li> <a href="/contact">contact</a> </li>
+   <li> <a href="/about/culture">about culture</a> </li>
 
 
    <h1>My Task List</h1>
