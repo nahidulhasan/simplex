@@ -6,6 +6,8 @@
 
 <body>
 
+    <?php require ('partials/head.php'); ?>
+
     <?php require ('partials/nav.php'); ?>
 
    <h1>My Task List</h1>
@@ -34,6 +36,9 @@
 
 
     </ul>
+
+
+    <?php require ('partials/footer.php'); ?>
 
 <body>
 
