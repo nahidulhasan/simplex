@@ -6,6 +6,7 @@
 
 <body>
 
+<?php require ('partials/nav.php'); ?>
 
 <h1> Contact </h1>
 

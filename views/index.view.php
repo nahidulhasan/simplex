@@ -6,12 +6,7 @@
 
 <body>
 
-   <h3>Menu</h3>
-
-   <li> <a href="/about">about us</a> </li>
-   <li> <a href="/contact">contact</a> </li>
-   <li> <a href="/about/culture">about culture</a> </li>
-
+    <?php require ('partials/nav.php'); ?>
 
    <h1>My Task List</h1>
 
