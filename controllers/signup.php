@@ -5,4 +5,4 @@
 
  echo "</br>";
 
-echo "Your age is :"." ".$_POST['age'];
+ echo "Your age is :"." ".$_POST['age'];
