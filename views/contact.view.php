@@ -13,7 +13,7 @@
 <h1> Contact </h1>
 
 
-<h3>submit your name:</h3>
+<h3>Submit your personal info:</h3>
 
 <form method="POST" action="/signup">
 
@@ -28,7 +28,6 @@
 
 
 
-<?php require ('partials/footer.php'); ?>
 <body>
 
 </html>

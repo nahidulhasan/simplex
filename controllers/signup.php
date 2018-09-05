@@ -13,9 +13,12 @@
   $app['database']->insert($table, $params);
 
 
+  header('Location: /contact');
 
- echo "Your name is :"." ".$_POST['name'];
+
+
+ /*echo "Your name is :"." ".$_POST['name'];
 
  echo "</br>";
 
- echo "Your age is :"." ".$_POST['age'];
+ echo "Your age is :"." ".$_POST['age'];*/

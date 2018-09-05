@@ -29,7 +29,7 @@ class QueryBuilder
            ":".implode(', :', array_keys($params))
 
            );
-        
+
 
         try{
 
