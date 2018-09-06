@@ -7,14 +7,15 @@ class App
 
     public static function bind($key, $value)
     {
+
         static::$registry[$key] = $value;
 
     }
 
 
-    public function get($key)
+    public static function get($key)
     {
-        if(!array_key_exists($key, static::$registry[$key]))
+        if(!array_key_exists($key, static::$registry))
         {
             throw new Exception("No {$key} is bind in this container");
 
