@@ -10,7 +10,7 @@
 
   ];
 
-App::get('database')->insert($table, $params);
+  App::get('database')->insert($table, $params);
 
 
   header('Location: /contact');

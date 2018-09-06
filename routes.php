@@ -10,12 +10,12 @@
     'about/culture' => 'controllers/about-culture.php'
 ]);*/
 
-$router->get('', 'controllers/index.php');
+$router->get('', 'PagesController@index');
 
-$router->get('about', 'controllers/about.php');
+$router->get('about', 'PagesController@about');
 
-$router->get('contact', 'controllers/contact.php');
+$router->get('contact', 'PagesController@contact');
 
-$router->get('about/culture', 'controllers/about-culture.php');
+$router->get('about/culture', 'PagesController@culture');
 
-$router->post('signup', 'controllers/signup.php');
+$router->post('signup', 'PagesController@signup.php');
