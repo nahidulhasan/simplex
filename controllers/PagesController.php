@@ -37,6 +37,8 @@ class  PagesController
         ];
 
         App::get('database')->insert($table, $params);
+
+        header('Location:/contact');
     }
 
     public  function culture()

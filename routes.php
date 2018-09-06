@@ -18,4 +18,4 @@ $router->get('contact', 'PagesController@contact');
 
 $router->get('about/culture', 'PagesController@culture');
 
-$router->post('signup', 'PagesController@signup.php');
+$router->post('signup', 'PagesController@signup');
