@@ -1,6 +1,6 @@
 <?php
 
 
-$users = $app['database']->SelectAll('users');
+$users = App::get('database')->SelectAll('users');
 
 require 'views/contact.view.php';

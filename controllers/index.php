@@ -1,7 +1,7 @@
 <?php
 
 
-$tasks = $app['database']->SelectAll('todo');
+$tasks = App::get('database')->SelectAll('todo');
 
 
 require 'views/index.view.php';
