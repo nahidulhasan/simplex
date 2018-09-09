@@ -21,7 +21,7 @@ class  PagesController
     {
         $users = App::get('database')->SelectAll('users');
 
-        return view('contact', $users);
+        return view('contact', ['users' => $users]);
 
     }
 

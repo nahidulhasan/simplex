@@ -10,3 +10,5 @@ $router->get('contact', 'PagesController@contact');
 $router->get('about/culture', 'PagesController@culture');
 
 $router->post('signup', 'PagesController@signup');
+
+$router->get('user', 'UsersController@index');
