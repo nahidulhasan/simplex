@@ -1,6 +1,13 @@
 <?php
 
 
+define('ROOT_DIR', realpath(__DIR__ . '/../'));
+
+$dotenv = new Dotenv\Dotenv(ROOT_DIR);
+
+$dotenv->load();
+
+
 App::bind('config', require 'config.php');
 
 
