@@ -12,6 +12,8 @@ class  PagesController
 
     public  function about()
     {
+        var_dump('test');
+        
         require 'views/about.view.php';
 
 
