@@ -10,7 +10,7 @@ class  PagesController
     {
         $tasks = App::get('database')->SelectAll('todo');
 
-        require 'views/index.view.php';
+        return view('index', ['tasks' => $tasks]);
 
     }
 
@@ -48,7 +48,7 @@ class  PagesController
     public  function culture()
     {
 
-        require 'views/about-culture.view.php';
+        return view('about-culture');
 
     }
 }

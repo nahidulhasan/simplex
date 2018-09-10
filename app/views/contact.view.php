@@ -6,9 +6,9 @@
 
 <body>
 
-<?php require ('partials/head.php'); ?>
+<?php require('partials/head.php'); ?>
 
-<?php require ('partials/nav.php'); ?>
+<?php require('partials/nav.php'); ?>
 
 <h1> Contact </h1>
 
