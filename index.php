@@ -5,5 +5,5 @@
  require 'core/bootstrap.php';
 
 
- Router::load('routes.php')
-    ->direct(Request::uri(), Request::method());
+ \App\Core\Router::load('routes.php')
+    ->direct(App\Core\Request::uri(), \App\Core\Request::method());

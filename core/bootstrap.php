@@ -1,5 +1,7 @@
 <?php
 
+use App\Core\App;
+
 
 define('ROOT_DIR', realpath(__DIR__ . '/../'));
 
