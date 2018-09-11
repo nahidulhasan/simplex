@@ -19,7 +19,7 @@ Run the command
 
 ```sh
 
-composer create-project nahidulhasan/simplex blog
+composer create-project nahidulhasan/simplex YOUR_PROJECT_NAME
 
 ```
 
@@ -31,7 +31,7 @@ If you have PHP installed locally and you would like to use PHP's built-in devel
 php -S 127.0.0.1:4321
 
 ```
-Now browse the project using the url
+Now browse the project
 
 ```
 http://127.0.0.1:4321
