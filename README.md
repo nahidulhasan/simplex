@@ -9,8 +9,7 @@ simple and easy php framework
 
 The Simplex framework has a few system requirements.You will need to make sure your server meets the following requirements:
 
-- PHP >= 7.1.3
-- OpenSSL PHP Extension
+- PHP >= 7.0
 - PDO PHP Extension
 
 
