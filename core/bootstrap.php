@@ -14,17 +14,22 @@ App::bind('config', require 'config.php');
 
 
 App::bind('database', new QueryBuilder(
-
-    Connection::make(App::get('config')['database']))
+        Connection::make(App::get('config')['database']))
 );
 
 
+/**
+ * Load view part
+ *
+ * @param $name
+ * @param null $data
+ * @return mixed
+ */
 function view($name, $data = null)
 {
-   if(!empty($data)){
-       extract($data);
-   }
+    if (!empty($data)) {
+        extract($data);
+    }
 
     return require "app/views/{$name}.view.php";
-
 }

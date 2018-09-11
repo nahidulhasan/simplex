@@ -11,20 +11,16 @@ class  PagesController
         $tasks = App::get('database')->SelectAll('todo');
 
         return view('index', ['tasks' => $tasks]);
-
     }
 
-    public  function welcome()
+    public function welcome()
     {
-
-       return view('welcome');
+        return view('welcome');
     }
 
-    public  function about()
+    public function about()
     {
-
         return view('about');
-
     }
 
     public function contact()
@@ -42,7 +38,7 @@ class  PagesController
         $params = [
 
             'name' => $_POST['name'],
-            'age'  => $_POST['age'],
+            'age' => $_POST['age'],
 
         ];
 
@@ -51,10 +47,8 @@ class  PagesController
         header('Location:/contact');
     }
 
-    public  function culture()
+    public function culture()
     {
-
         return view('about-culture');
-
     }
 }
