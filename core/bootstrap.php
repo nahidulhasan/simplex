@@ -19,10 +19,11 @@ App::bind('database', new QueryBuilder(
 );
 
 
-function view($name, $data)
+function view($name, $data = null)
 {
-
-    extract($data);
+   if(!empty($data)){
+       extract($data);
+   }
 
     return require "app/views/{$name}.view.php";
 

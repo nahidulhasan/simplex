@@ -1,7 +1,9 @@
 <?php
 
 
-$router->get('', 'PagesController@index');
+$router->get('', 'PagesController@welcome');
+
+$router->get('task', 'PagesController@index');
 
 $router->get('about', 'PagesController@about');
 

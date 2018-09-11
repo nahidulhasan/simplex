@@ -14,10 +14,16 @@ class  PagesController
 
     }
 
+    public  function welcome()
+    {
+
+       return view('welcome');
+    }
+
     public  function about()
     {
 
-        require 'views/about.view.php';
+        return view('about');
 
     }
 
