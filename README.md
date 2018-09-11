@@ -33,10 +33,10 @@ php -S 127.0.0.1:4321
 ```
 Now browse the project using the url
 
-`
- http://127.0.0.1:4321
-`
-
+```
+http://127.0.0.1:4321
+```
+ 
 
 #### Run the project using Docker:
 
@@ -51,10 +51,10 @@ docker-compose up -d
 
 Now browse project
 
-`
+```
 http://localhost:9003
 
-`
+```
 
 ## License
 
