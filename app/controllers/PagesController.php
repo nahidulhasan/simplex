@@ -8,9 +8,9 @@ class  PagesController
 {
     public function index()
     {
-        $tasks = App::get('database')->SelectAll('todo');
+       // $tasks = App::get('database')->SelectAll('todo');
 
-        return view('index', ['tasks' => $tasks]);
+       // return view('index', ['tasks' => $tasks]);
     }
 
     public function welcome()
