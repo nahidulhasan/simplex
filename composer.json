@@ -1,5 +1,9 @@
-
 {
+  "name": "nahidulhasan/simplex",
+  "description": "The Simplex PHP Framework.",
+  "keywords": ["framework", "simplex"],
+  "license": "MIT",
+  "type": "project",
 
   "require": {
     "vlucas/phpdotenv": "^2.5"
@@ -12,5 +16,14 @@
       "./"
     ]
 
-  }
+  },
+
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+
+  "minimum-stability": "dev-master",
+  "prefer-stable": true
 }
