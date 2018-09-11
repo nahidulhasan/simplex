@@ -44,6 +44,7 @@ Now run the following command from your terminal one by one. Running the command
 
 ```sh
 docker-compose build
+
 docker-compose up -d
 
 ```
