@@ -1,6 +1,6 @@
 # simplex
 
-simple and easy php framework
+The Simplex Framework is very simple and easy. It will be very helpful for the developers who are the beginner in PHP and want to learn Framework
 
 
 ## Installation
