@@ -5,7 +5,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/nahidulhasan/simplex/v/unstable)](https://packagist.org/packages/nahidulhasan/simplex)
 [![License](https://poser.pugx.org/nahidulhasan/simplex/license)](https://packagist.org/packages/nahidulhasan/simplex)
 
-The Simplex Framework is very simple and easy. It will be very helpful for the developers who are the beginner in PHP and want to learn Framework
+The Simplex Framework is very simple and easy. It will be very helpful for beginner PHP developers who want to learn a Framework
 
 
 ## Installation
