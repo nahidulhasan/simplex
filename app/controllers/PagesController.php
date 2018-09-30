@@ -25,7 +25,7 @@ class  PagesController
 
     public function contact()
     {
-        $users = App::get('database')->SelectAll('users');
+        //$users = App::get('database')->SelectAll('users');
 
         return view('contact', ['users' => $users]);
 

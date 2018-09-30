@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller;
+namespace App\Controllers;
 
 use App\Core\App;
 
@@ -10,7 +10,7 @@ class  UsersController
     {
        // $users = App::get('database')->SelectAll('users');
 
-      //  return view('user', ['users' => $users]);
+        return view('user', ['users' => $users]);
 
     }
 
