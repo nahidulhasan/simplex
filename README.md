@@ -30,13 +30,21 @@ composer create-project nahidulhasan/simplex YOUR_PROJECT_NAME
 
 ## Run the Project
 
-If you have PHP installed locally and you would like to use PHP's built-in development server to serve your application, Run the following command:
+If you have PHP installed locally and you would like to use PHP's built-in development server to serve your application, Follow the steps described  in below:
+
+- Go to your  project directory:
+
+```
+ cd YOUR_PROJECT_NAME
+```
+
+- Run the command :
 
 ```sh
 php -S 127.0.0.1:4321
 
 ```
-Now browse the project
+- Now browse the project
 
 ```
 http://127.0.0.1:4321
